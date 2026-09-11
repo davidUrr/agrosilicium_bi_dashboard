@@ -1,0 +1,5 @@
+# .gitignore
+data/*.db
+__pycache__/
+.streamlit/secrets.toml
+.DS_Store
