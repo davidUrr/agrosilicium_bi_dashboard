@@ -18,7 +18,7 @@ aplicar_estilos_corporativos()
 
 # Navegación Principal en Sidebar
 with st.sidebar:
-    st.image("logo.png", width=120)# if st.runtime.exists() else None
+    st.image("logo.png", width=120)
     st.subheader("Inteligencia Aduanera")
     st.caption("AGROSILICIUM MEJISULFATOS S.A.S. — Suite Corporativa")
     st.divider()

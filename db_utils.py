@@ -8,7 +8,9 @@ from config import DB_PATH
 
 # URL de descarga directa de la base de datos de 261 MB
 # ⚠️ REEMPLAZA EL ID POR EL TUYO DE GOOGLE DRIVE:
-DB_URL = "https://drive.google.com/uc?export=download&id=1Hxs2BOnxRWuxcT-AcC2ccyOM-sUZ-rHs"
+DB_URL = "https://drive.google.com/uc?export=download&id=1Mz9O1L0HKwbBWdbOKX5gtL8WZqmMm_fB"
+#https://drive.google.com/file/d/1Mz9O1L0HKwbBWdbOKX5gtL8WZqmMm_fB/view?usp=drive_link
+
 
 def asegurar_base_de_datos():
     """
