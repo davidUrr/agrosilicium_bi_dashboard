@@ -1,9 +1,11 @@
 # db_utils.py
-import sqlite3
 import os
+import sqlite3
+
+import gdown
 import pandas as pd
 import streamlit as st
-import gdown
+
 from config import DB_PATH
 
 # URL de descarga directa de la base de datos de 261 MB
