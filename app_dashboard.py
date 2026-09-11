@@ -29,7 +29,7 @@ with st.sidebar:
         [
             "Inteligencia de Exportaciones", 
             "Inteligencia de Importaciones", 
-            "Inteligencia Financiera"
+            #"Inteligencia Financiera"
         ],
         key="modulo_master_selector"
     )
@@ -40,5 +40,5 @@ if modulo_activo == "Inteligencia de Exportaciones":
     render_vista_exportaciones()
 elif modulo_activo == "Inteligencia de Importaciones":
     render_vista_importaciones()
-elif modulo_activo == "Inteligencia Financiera":
-    render_vista_financiera()
+#elif modulo_activo == "Inteligencia Financiera":
+#    render_vista_financiera()
